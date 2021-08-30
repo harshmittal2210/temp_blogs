@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Embedded Devices and Platforms"
+categories: Embedded-Systems Hardware
+
+---
+
 # Embedded Devices and Platforms
 
 In this article I'll be talking in brief about some of the different microcontrollers, FPGA boards I have used and whats my take on it, 
