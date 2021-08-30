@@ -1,5 +1,6 @@
-Here you can say lots of fun things about your site.
+<img align="right" src="http://www.harshmittal.tech/assets/img/about_prf.JPG" width=400>
+Hey!
 
-Maybe say a some things about yourself.
+Thanks for visiting the site.
 
-Or maybe what you plan to blog about.
+Here I will be taking about all sorts of things like Embedded Systems, Computer Vision, IoT, Robotics and AI
