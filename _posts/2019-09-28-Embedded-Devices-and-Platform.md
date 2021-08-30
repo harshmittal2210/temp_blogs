@@ -1,8 +1,3 @@
----
-layout: post
-title: "Embedded Devices and Platforms"
-
----
 
 # Embedded Devices and Platforms
 
