@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Embedded Devices and Platforms"
-categories: Embedded-Systems Hardware
+categories: blogs
 
 ---
 
