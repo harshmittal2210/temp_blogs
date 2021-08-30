@@ -7,7 +7,7 @@ In the end, I have discussed the latest development tools like [MicroPython](htt
 
 
 ### Pynq Z2
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C5112AQHodDAavDw7tg/article-inline_image-shrink_1000_1488/0/1569670873318?e=1635984000&v=beta&t=Gi1R897h_ho_5sTBnCypcYLXEfL8YX-UJvLSWREhcP0">
+<img align="left" padding=10 src="https://media-exp1.licdn.com/dms/image/C5112AQHodDAavDw7tg/article-inline_image-shrink_1000_1488/0/1569670873318?e=1635984000&v=beta&t=Gi1R897h_ho_5sTBnCypcYLXEfL8YX-UJvLSWREhcP0">
 
 Pynq is an open-source project from Xilinx enabling designing an embedded system with Xilinx Zynq SoCs. 
 It has Zynq Z7020 with 512MB DDR3 having 1 Arduino, 2 RPi header and 2xPmod GPIO. In Pynq we can use overlays to accelerate your processing speed for certain programs in Python. 
