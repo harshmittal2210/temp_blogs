@@ -44,16 +44,19 @@ It also supports Serial/UART, SPI, PWM, External Interrupts, I2C, AREF (Analog R
 
 This is generally used in place of Arduino UNO if you want a greater number of pins/memory. It is based on ATmega2560 and has 54 digital, 16 analog pins. It has all the advantage of Arduino UNO but the price is higher.
 
-### Projects:
+#### Projects:
 RSA Encryption for IoT system: This was first implemented over UNO but due to need of more memory I had to switch over to Mega board.
-NodeMCU
 
 
-> Both Arduino UNO and Arduino Mega has one disadvantage to use it for IoT application you need to connect it with external devices like ESP8266 to have Wi-Fi connectivity. NodeMCU is part of Arduino family which have ESP8266 on board thus it is considered ideal for small IoT applications. Small because it has a smaller number of pins as compared to UNO and Mega. NodeMCU has one more disadvantage that only one ADC pin is present, thus limiting the number of sensors that can be attached.
+### NodeMCU
 
-### Project:
-Controlling LED wirelessly: This I had done in two ways, first using Adafruit and second by creating a local server.
-Design an IoT network using sensors and actuators for smart home automation.
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C5112AQG9l1Y7fb001A/article-inline_image-shrink_1000_1488/0/1569670598389?e=1635984000&v=beta&t=tvbJuyJDWzQgF3ZAMQVZvG90ugrih0WB5XiFmj1bqxc">
+
+Both Arduino UNO and Arduino Mega has one disadvantage to use it for IoT application you need to connect it with external devices like ESP8266 to have Wi-Fi connectivity. NodeMCU is part of Arduino family which have ESP8266 on board thus it is considered ideal for small IoT applications. Small because it has a smaller number of pins as compared to UNO and Mega. NodeMCU has one more disadvantage that only one ADC pin is present, thus limiting the number of sensors that can be attached.
+
+#### Project:
+- Controlling LED wirelessly: This I had done in two ways, first using Adafruit and second by creating a local server.
+- Design an IoT network using sensors and actuators for smart home automation.
 
 **Q: Is Arduino used in Industry?**
 
@@ -61,16 +64,17 @@ This depends upon the company. But most of the companies do not prefer using Ard
 
 **Q: Want to try Arduino for free?**
 
-If you want to try Arduino before buying you can try making some projects over Tinkercad. It is very simple to use and have several demos available online. Many sensors and actuators are also present for prototyping. I use it extensively when I don’t have a board around or I just want to try out my design when I don’t have the required hardware.
+If you want to try Arduino before buying you can try making some projects over [Tinkercad](https://www.tinkercad.com/circuits). It is very simple to use and have several demos available online. Many sensors and actuators are also present for prototyping. I use it extensively when I don’t have a board around or I just want to try out my design when I don’t have the required hardware.
  
  
 ### Raspberry Pi
 Raspberry is a small portable single board computer which you can connect to monitor, attach peripherals and use it for various projects. The latest model is the Raspberry Pi 4(RPi 4) but RPi 3 is most commonly used as of today. RPi 4 has a better processor (Cortex A72) and have upgraded RAM from LPDDR2 to LPDDR4. Apart from it, there are up-gradation in graphics, USB ports, Bluetooth and shifting to Type C for power. A major advantage of Type C is having more current thus providing more power to the processor for processing.
 No alt text provided for this image
 
+<img align="center" src="https://media-exp1.licdn.com/dms/image/C5112AQGnHDe_VsY8tA/article-inline_image-shrink_1000_1488/0/1569669873357?e=1635984000&v=beta&t=7j7LHwQchO2u42k_2g7GUUoLVbh_5mKbXO1GK0PTwRw">
 
 #### Projects:
-Created an application using PyQt for Smart Home Automation and Security to control different sensors around the house using NodeMCU via MQTT. Implemented ARIMA and LSTM model for power consumption prediction over a year. The model was trained using Tensorflow and Keras.
+Created an application using [PyQt](https://wiki.python.org/moin/PyQt) for Smart Home Automation and Security to control different sensors around the house using NodeMCU via MQTT. Implemented ARIMA and LSTM model for power consumption prediction over a year. The model was trained using Tensorflow and Keras.
 
 **Q: Raspberry Pi vs Arduino?**
 
@@ -78,7 +82,7 @@ If you want to do more processes than controlling sensors/actuators use RPi else
 
 **Q: Which OS is best for RPi?**
 
-This is mostly project dependent. I use Raspbian (official) as it is lightweight, and you can easily find troubleshooting for Raspbian. You can try Windows 10 IoT core, it is considered best for just coding and programming. It is not same as the windows 10 version you have on the laptop but is a simpler version of it.
+This is mostly project dependent. I use [Raspbian (official)](https://www.raspberrypi.org/downloads/raspbian/) as it is lightweight, and you can easily find troubleshooting for Raspbian. You can try Windows 10 IoT core, it is considered best for just coding and programming. It is not same as the windows 10 version you have on the laptop but is a simpler version of it.
 
 **Q: Can you use RPi without a monitor?**
 
@@ -87,8 +91,9 @@ Yes! For installation use headless installation and later communicate to RPi usi
 
 ### Beaglebone Black
 
-This development platform is similar to RPi. It also runs on Linux. It has Cortex A8 processor with 4GB 8-bit eMMC on-board flash storage with 2x42 pin headers. One of the best features about this device is we can start development using a single USB cable. I had also used BBB for getting started with the Yocto Project.
+This development platform is similar to RPi. It also runs on Linux. It has Cortex A8 processor with 4GB 8-bit eMMC on-board flash storage with 2x42 pin headers. One of the best features about this device is we can start development using a single USB cable. I had also used BBB for getting started with [the Yocto Project](https://www.yoctoproject.org/).
 
+<img align="center" src="https://media-exp1.licdn.com/dms/image/C5112AQFRk5psxP1cCA/article-inline_image-shrink_1000_1488/0/1569669930080?e=1635984000&v=beta&t=Wo1PXBUVJ2kByFL5oT7PNW1Jn2pdww_JxdkgeMJas_s">
 
 #### Projects:
 
@@ -103,6 +108,8 @@ BBB has better I/O capabilities than RPi but RPi is better if you want to work o
 
 
 ### Tiva TM4C123G
+
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C5112AQEMC6xy17ntDw/article-inline_image-shrink_1000_1488/0/1569670026458?e=1635984000&v=beta&t=SVGSO8jrv1fw3_UmfBl-gtwLjEte01EZ_ow8AR7bBeM">
 
 This I feel is one of the best-embedded devices that I had used so far. It is based on Cortex M4F microcontroller. It has onboard ICDI (In-Circuit Debug Interface),2 RGB LED and two switches. For the coding purpose, I use Keil. If someone wants to learn proper Embedded C, this is where you should invest your time. It supports I2C, Serial UART, CAN, SPI and have multiple ports for them thus enabling many devices to be connected in a single network.
 
@@ -120,7 +127,7 @@ On the surface, it may seem like they are common in terms of GPIO, ADC, timers e
 
 **Q: Best Resources for learning it?**
 
-Embedded Systems - Shape The World: Microcontroller Input/Output is the best course to get started.
+[Embedded Systems - Shape The World: Microcontroller Input/Output](https://www.edx.org/course/embedded-systems-shape-the-world-microcontroller-inputoutput-2) is the best course to get started.
 
 
 ### Atmega 16 Microcontroller
@@ -133,15 +140,18 @@ Prototype for Martian bot with a camera on board with a 180-degree field of visi
 
 
 ## Some new platforms
-1.     MicroPython
-Embedded C rules the Embedded Systems. Almost every microcontroller is programmed using Embedded C. On the other hand, Python is considered one of the best languages for development in most of the application and have lots of strengths to become a great language for embedded systems. This is where MicroPython comes in, it bridges the gap between and uses a subset of Python 3 and is optimized to be run over microcontrollers. To try it out you can use the online simulator for running your codes and have basic knowledge about it. Right now, it is in its beta stage only.
-PyBoard
 
+### 1. MicroPython
+
+<img align="left" src="https://media-exp1.licdn.com/dms/image/C5112AQG9C4Sitl5EPA/article-inline_image-shrink_1000_1488/0/1569670332170?e=1635984000&v=beta&t=0qAM_BsUG7MASazrK5vbrdbK6IhkoDKekDrRN9IN448">
+
+Embedded C rules the Embedded Systems. Almost every microcontroller is programmed using Embedded C. On the other hand, Python is considered one of the best languages for development in most of the application and have lots of strengths to become a great language for embedded systems. This is where MicroPython comes in, it bridges the gap between and uses a subset of Python 3 and is optimized to be run over microcontrollers. To try it out you can use the [online simulator](https://micropython.org/unicorn) for running your codes and have basic knowledge about it. Right now, it is in its beta stage only.
 
 To try on actual hardware, you can use PyBoard which with the combination of MicroPython makes a Python OS. It has 30 GPIO, I2C, UART, SPI, PWM, ADC, DAC, timers, LEDs, accelerometer. When you connect it to computer it is connected as a USB device as well as a Serial device. And since Python is an interpreter language, we can make use of that as well, thus making debugging easy.
 
-MicroPython has also some disadvantages like it is a bit slow as compared to C/C++ code and uses little more space. It also does not support all the libraries that are offered in Python 3.
-2.     Low.js
+MicroPython has also some disadvantages like it is a bit slow as compared to C/C++ code and uses little more space. It also does not support all the libraries that are offered in Python3.
+
+### 2. Low.js
 
 
 Node.js is one of the best API for internet application but since it uses lot of resources it cannot be used directly on embedded devices. Low.js is a part of JavaScript runtime Node.js enabling us to implement scalable IoT related applications easily and efficiently over embedded devices. Low.js enable perform multiple task at same time and has additional advantages over Arduino like following protocols according to defined standards. Choosing between Low.js and MicroPython is difficult. It is almost same as choosing between Node.js and Python. This totally comes down to the fact that in which language you are more comfortable, and which is the main language in your project. Low.js runs on any ESP-32 WROVER module. Two boards which fully supports it are Neonious one and Generic ESP32-WROVER Board.
@@ -149,6 +159,6 @@ Node.js is one of the best API for internet application but since it uses lot of
 
 
 
-I hope you found this article helpful. For any more queries feel free to contact me. You can check www.harshmittal.tech as well for more projects.
+I hope you found this article helpful. For any more queries feel free to contact me. You can check [www.harshmittal.tech](www.harshmittal.tech) as well for more projects.
 
 Thank You
