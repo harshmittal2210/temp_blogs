@@ -1,4 +1,4 @@
-<img align="right" src="http://www.harshmittal.tech/assets/img/about_prf.JPG" width=400 border=1>
+<img align="right" src="http://www.harshmittal.co.in/assets/img/about_prf.JPG" width=400 border=1>
 
 
 Hey!
