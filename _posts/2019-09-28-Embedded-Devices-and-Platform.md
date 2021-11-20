@@ -17,7 +17,7 @@ This IP is then tested in Vivado SDK. All FPGA board having Zynq architecture (e
 
 #### Projects:
 
-[Hand-Number Recognition](https://www.harshmittal.tech/blogs/2020/03/12/IEEE-2019.html): Created an IP core for Hand-Number recognition using Vivado HLS. The model was trained over Matlab. 
+[Hand-Number Recognition](https://www.harshmittal.co.in/blogs/2020/03/12/IEEE-2019.html): Created an IP core for Hand-Number recognition using Vivado HLS. The model was trained over Matlab. 
 This same project was also implemented over Zybo and Zedboard.
 
 
@@ -159,6 +159,6 @@ Node.js is one of the best API for internet application but since it uses lot of
 
 
 
-I hope you found this article helpful. For any more queries feel free to contact me. You can check [www.harshmittal.tech](www.harshmittal.tech) as well for more projects.
+I hope you found this article helpful. For any more queries feel free to contact me. You can check [www.harshmittal.co.in](www.harshmittal.co.in) as well for more projects.
 
 Thank You
