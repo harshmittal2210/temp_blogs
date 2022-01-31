@@ -11,7 +11,6 @@ optimized_image: >-
   https://res.cloudinary.com/dog8hn5qv/image/upload/c_scale,w_380/v1638984432/blog/facial-recognition-for-biometric-access-control-housing-1024x662_evcior.jpg
 category: blog
 tags:
-  - blog
   - Python
   - Computer Vision
 author: harshmittal
