@@ -48,7 +48,7 @@ $ sudo apt install ros-noetic-desktop-full
 
 To follow along with this tutorial you need to clone my repository.
 
-Link: https://github.com/harshmittal2210/Robotics_ws
+Link: [https://github.com/harshmittal2210/Robotics_ws](https://github.com/harshmittal2210/Robotics_ws)
 
 Along with Atom Bot, that is described on this tutorial, there are other bots as well do check them out.
 
@@ -82,7 +82,7 @@ Your Gazebo world will be having just the Atom Bot. Here you can see on top we h
 
 Let's start by creating XACRO files.
 
-Read More: http://wiki.ros.org/xacro
+Read More: [http://wiki.ros.org/xacro](http://wiki.ros.org/xacro)
 
 Xacro (XML Macros) Xacro is an XML macro language. With xacro, you can construct shorter and more readable XML files by using macros that expand to larger XML expressions.
 

@@ -1,8 +1,30 @@
-# Image Transmission Using 64 QAM via Wired/Wireless Channel
+---
+date: 2019-05-16T23:48:05.000Z
+layout: post
+title: Image Transmission Using 64 QAM via Wired/Wireless Channel
+subtitle: 'MATLAB and C++ Implementation'
+description: >-
+  Transfer image using 64 QAM to reduce network load
+image: >-
+  https://res.cloudinary.com/dog8hn5qv/image/upload/v1638982168/blog/qam_xulfwh.png
+optimized_image: >-
+  https://res.cloudinary.com/dog8hn5qv/image/upload/c_scale,w_380/v1638982168/blog/qam_xulfwh.png
+category: Project
+tags:
+  - Matlab
+  - Signal Processing
+  - Computer Vision
+author: harshmittal
+paginate: true
+---
 
-CLick here for video: ![Video Link](https://www.youtube.com/watch?v=-MvTl2pfDNA&ab_channel=HARSHMITTAL)
+CLick here for video: [Video Link](https://www.youtube.com/watch?v=-MvTl2pfDNA&ab_channel=HARSHMITTAL)
 
 Basic Code for transmission of the image using 64 QAM. This project was first implemented on Matlab, then on C++. The code was tested on zedboard.
+
+
+[![Youtube Link](https://res.cloudinary.com/dog8hn5qv/image/upload/v1638982491/blog/qam_play_znvaxg.png)](https://www.youtube.com/watch?v=-MvTl2pfDNA&ab_channel=HARSHMITTAL)
+
 
 
 ### QAM:

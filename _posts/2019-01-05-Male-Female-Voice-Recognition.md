@@ -1,4 +1,22 @@
-# Male Female Voice Recognition
+---
+date: 2019-01-05T23:48:05.000Z
+layout: post
+title: Male Female Voice Recognition
+subtitle: 'Recognize gender using audio'
+description: >-
+  Matlab based implementation to recognize male/female using audio
+image: >-
+  https://res.cloudinary.com/dog8hn5qv/image/upload/v1638984254/blog/2-Figure3-1_rwyjeg.png
+optimized_image: >-
+  https://res.cloudinary.com/dog8hn5qv/image/upload/c_scale,w_380/v1638984254/blog/2-Figure3-1_rwyjeg.png
+category: blog
+tags:
+  - Matlab
+  - Signal Processing
+  - GUI
+author: harshmittal
+paginate: true
+---
 
 This is a project which I made using MATLAB. As the title suggests it is a simple application which detects the gender of the person.
 
@@ -62,7 +80,7 @@ zc=length(find((xin>0 & x2<0) | (xin<0 & x2>0)));
 y = 0.5*Fs*zc/length(x);
 ```
 
-In the next block *Persistent* is used in order to save the previous result in order to use next time. This is essential for the caculation of mean frequency.
+In the next block *Persistent* is used in order to save the previous result in order to use next time. This is essential for the calculation of mean frequency.
 
 #### Code:
 

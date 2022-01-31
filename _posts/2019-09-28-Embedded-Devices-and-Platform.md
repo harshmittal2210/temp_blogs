@@ -1,5 +1,22 @@
+---
+date: 2019-05-16T23:48:05.000Z
+layout: post
+title: Embedded Devices and Platforms
+subtitle: 'Summary of some embedded devices'
+description: >-
+  Brief explanation for all the embedded devices I have used so far
+image: >-
+  https://res.cloudinary.com/dog8hn5qv/image/upload/v1638983128/blog/Graphene-makes-electronics-chips-million-times-faster-e1466775424486_yhlvsz.jpg
+optimized_image: >-
+  https://res.cloudinary.com/dog8hn5qv/image/upload/c_scale,w_380/v1638983128/blog/Graphene-makes-electronics-chips-million-times-faster-e1466775424486_yhlvsz.jpg
+category: blog
+tags:
+  - Embedded Systems
 
-# Embedded Devices and Platforms
+author: harshmittal
+paginate: true
+---
+
 
 In this article I'll be talking in brief about some of the different microcontrollers, FPGA boards I have used and whats my take on it, 
 along with some of the projects I have implemented over them. I have also provided links to some resources for reference. 
@@ -7,7 +24,7 @@ In the end, I have discussed the latest development tools like [MicroPython](htt
 
 
 ### Pynq Z2
-<img align="left" padding=10 src="https://media-exp1.licdn.com/dms/image/C5112AQHodDAavDw7tg/article-inline_image-shrink_1000_1488/0/1569670873318?e=1635984000&v=beta&t=Gi1R897h_ho_5sTBnCypcYLXEfL8YX-UJvLSWREhcP0">
+<img align="left" padding=10 src="https://res.cloudinary.com/dog8hn5qv/image/upload/v1638983209/blog/D20Y9u4WsAA27CK_jziiek.jpg">
 
 Pynq is an open-source project from Xilinx enabling designing an embedded system with Xilinx Zynq SoCs. 
 It has Zynq Z7020 with 512MB DDR3 having 1 Arduino, 2 RPi header and 2xPmod GPIO. In Pynq we can use overlays to accelerate your processing speed for certain programs in Python. 
@@ -17,14 +34,14 @@ This IP is then tested in Vivado SDK. All FPGA board having Zynq architecture (e
 
 #### Projects:
 
-[Hand-Number Recognition](https://www.harshmittal.co.in/blogs/2020/03/12/IEEE-2019.html): Created an IP core for Hand-Number recognition using Vivado HLS. The model was trained over Matlab. 
+[Hand-Number Recognition](https://www.harshmittal.co.in/tutorials/2020/03/12/IEEE-2019.html): Created an IP core for Hand-Number recognition using Vivado HLS. The model was trained over Matlab. 
 This same project was also implemented over Zybo and Zedboard.
 
 
 
 ### Arduino UNO
 
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C5112AQGvg3BOxp9isQ/article-inline_image-shrink_1000_1488/0/1569669645025?e=1635984000&v=beta&t=mOSFBph_olwiQXAbKwRjZ5F4gzUkESttFHaVOFEEIPY">
+<img align="left" src="https://res.cloudinary.com/dog8hn5qv/image/upload/v1638983349/blog/arduinounotop_y96bts.jpg">
 
 Arduino is one of the most popular open-source hardware and software company. 
 They have created tons of hardware which mostly consists of the 8-bit AVR microcontroller. 
@@ -40,7 +57,7 @@ It also supports Serial/UART, SPI, PWM, External Interrupts, I2C, AREF (Analog R
 
 ### Arduino Mega 2560
 
-<img align="center" src="https://media-exp1.licdn.com/dms/image/C5112AQGCeyZLPKuLrQ/article-inline_image-shrink_1000_1488/0/1569670495419?e=1635984000&v=beta&t=Th7EPfVBwB5kR3n1GNagT_5dFfCcDIX4g5E3kyqpyJc">
+<img align="center" src="https://res.cloudinary.com/dog8hn5qv/image/upload/v1638983324/blog/101396935.png_bes7bb.png">
 
 This is generally used in place of Arduino UNO if you want a greater number of pins/memory. It is based on ATmega2560 and has 54 digital, 16 analog pins. It has all the advantage of Arduino UNO but the price is higher.
 
@@ -50,7 +67,7 @@ RSA Encryption for IoT system: This was first implemented over UNO but due to ne
 
 ### NodeMCU
 
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C5112AQG9l1Y7fb001A/article-inline_image-shrink_1000_1488/0/1569670598389?e=1635984000&v=beta&t=tvbJuyJDWzQgF3ZAMQVZvG90ugrih0WB5XiFmj1bqxc">
+<img align="left" src="https://res.cloudinary.com/dog8hn5qv/image/upload/v1638983423/blog/169034-91f-web_m1x8pv.jpg">
 
 Both Arduino UNO and Arduino Mega has one disadvantage to use it for IoT application you need to connect it with external devices like ESP8266 to have Wi-Fi connectivity. NodeMCU is part of Arduino family which have ESP8266 on board thus it is considered ideal for small IoT applications. Small because it has a smaller number of pins as compared to UNO and Mega. NodeMCU has one more disadvantage that only one ADC pin is present, thus limiting the number of sensors that can be attached.
 
@@ -71,7 +88,7 @@ If you want to try Arduino before buying you can try making some projects over [
 Raspberry is a small portable single board computer which you can connect to monitor, attach peripherals and use it for various projects. The latest model is the Raspberry Pi 4(RPi 4) but RPi 3 is most commonly used as of today. RPi 4 has a better processor (Cortex A72) and have upgraded RAM from LPDDR2 to LPDDR4. Apart from it, there are up-gradation in graphics, USB ports, Bluetooth and shifting to Type C for power. A major advantage of Type C is having more current thus providing more power to the processor for processing.
 No alt text provided for this image
 
-<img align="center" src="https://media-exp1.licdn.com/dms/image/C5112AQGnHDe_VsY8tA/article-inline_image-shrink_1000_1488/0/1569669873357?e=1635984000&v=beta&t=7j7LHwQchO2u42k_2g7GUUoLVbh_5mKbXO1GK0PTwRw">
+<img align="center" src="https://res.cloudinary.com/dog8hn5qv/image/upload/v1638983469/blog/71IOISwSYZL._AC_SL1400__umlrrb.jpg">
 
 #### Projects:
 Created an application using [PyQt](https://wiki.python.org/moin/PyQt) for Smart Home Automation and Security to control different sensors around the house using NodeMCU via MQTT. Implemented ARIMA and LSTM model for power consumption prediction over a year. The model was trained using Tensorflow and Keras.
@@ -93,7 +110,7 @@ Yes! For installation use headless installation and later communicate to RPi usi
 
 This development platform is similar to RPi. It also runs on Linux. It has Cortex A8 processor with 4GB 8-bit eMMC on-board flash storage with 2x42 pin headers. One of the best features about this device is we can start development using a single USB cable. I had also used BBB for getting started with [the Yocto Project](https://www.yoctoproject.org/).
 
-<img align="center" src="https://media-exp1.licdn.com/dms/image/C5112AQFRk5psxP1cCA/article-inline_image-shrink_1000_1488/0/1569669930080?e=1635984000&v=beta&t=Wo1PXBUVJ2kByFL5oT7PNW1Jn2pdww_JxdkgeMJas_s">
+<img align="center" src="https://res.cloudinary.com/dog8hn5qv/image/upload/v1638983517/blog/71PDU796juL._AC_SL1500__jlnxvg.jpg">
 
 #### Projects:
 
@@ -109,7 +126,7 @@ BBB has better I/O capabilities than RPi but RPi is better if you want to work o
 
 ### Tiva TM4C123G
 
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C5112AQEMC6xy17ntDw/article-inline_image-shrink_1000_1488/0/1569670026458?e=1635984000&v=beta&t=SVGSO8jrv1fw3_UmfBl-gtwLjEte01EZ_ow8AR7bBeM">
+<img align="left" src="https://res.cloudinary.com/dog8hn5qv/image/upload/v1638983767/blog/TI-00006-500x500_awv7fn.jpg">
 
 This I feel is one of the best-embedded devices that I had used so far. It is based on Cortex M4F microcontroller. It has onboard ICDI (In-Circuit Debug Interface),2 RGB LED and two switches. For the coding purpose, I use Keil. If someone wants to learn proper Embedded C, this is where you should invest your time. It supports I2C, Serial UART, CAN, SPI and have multiple ports for them thus enabling many devices to be connected in a single network.
 
@@ -143,7 +160,7 @@ Prototype for Martian bot with a camera on board with a 180-degree field of visi
 
 ### 1. MicroPython
 
-<img align="left" src="https://media-exp1.licdn.com/dms/image/C5112AQG9C4Sitl5EPA/article-inline_image-shrink_1000_1488/0/1569670332170?e=1635984000&v=beta&t=0qAM_BsUG7MASazrK5vbrdbK6IhkoDKekDrRN9IN448">
+<img align="left" src="https://res.cloudinary.com/dog8hn5qv/image/upload/v1638983879/blog/mpheader_gsa8st.jpg">
 
 Embedded C rules the Embedded Systems. Almost every microcontroller is programmed using Embedded C. On the other hand, Python is considered one of the best languages for development in most of the application and have lots of strengths to become a great language for embedded systems. This is where MicroPython comes in, it bridges the gap between and uses a subset of Python 3 and is optimized to be run over microcontrollers. To try it out you can use the [online simulator](https://micropython.org/unicorn) for running your codes and have basic knowledge about it. Right now, it is in its beta stage only.
 
