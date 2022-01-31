@@ -18,6 +18,8 @@ author: harshmittal
 paginate: true
 ---
 
+Python based project to detect faces using a novel way
+
 ### Introduction
 
 An efficient and accurate access control system is very important for many security applications. At present, for general identification techniques, 
