@@ -22,6 +22,8 @@ author: harshmittal
 paginate: true
 ---
 
+Learn to create Dino game in arduino using OLED display.
+
 ## Things used in this project 
 - [Arduino Mega 2560](https://amzn.to/3eMbmUY)
 - [OLED 64x128 Display Module](https://amzn.to/3sOL64B)
